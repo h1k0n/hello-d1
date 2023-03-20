@@ -12,7 +12,7 @@ riscv = { git = "https://github.com/rust-embedded/riscv", features = ["critical-
 #riscv-rt = { version = "=0.9.0" }
 riscv-rt = { git = "https://github.com/rust-embedded/riscv-rt" }
 
-d1-pac = { version = "=0.0.30", features = ["critical-section"] }
+d1-pac = { version = "=0.0.31", features = ["critical-section"] }
 #d1-pac = { git = "https://github.com/duskmoon314/aw-pac" }
 #d1-pac = { git = "https://github.com/antoinevg/aw-pac", branch = "antoinevg/i2s" }
 #d1-pac = { path = "../upstream/aw-pac.git/d1-pac" }
